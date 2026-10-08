@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swara Patel | Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f5f0;
+      color: #253047;
+      line-height: 1.7;
+    }
+
+    nav {
+      background: #172642;
+      padding: 18px 24px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #e4bb72;
+    }
+
+    header {
+      background: #172642;
+      color: white;
+      padding: 85px 25px;
+      text-align: center;
+    }
+
+    header .label {
+      color: #e4bb72;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(40px, 8vw, 64px);
+      margin: 12px 0 20px;
+      line-height: 1.2;
+    }
+
+    header p {
+      max-width: 740px;
+      margin: 0 auto;
+      font-size: 19px;
+    }
+
+    main {
+      max-width: 1050px;
+      margin: auto;
+      padding: 20px 25px 60px;
+    }
+
+    section {
+      padding-top: 45px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 12px;
+      color: #172642;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .skills li {
+      background: white;
+      padding: 10px 17px;
+      border: 1px solid #dce0e7;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 22px;
+      margin-top: 22px;
+    }
+
+    .project {
+      background: white;
+      border: 1px solid #dce0e7;
+      border-top: 4px solid #c89b50;
+      border-radius: 8px;
+      padding: 25px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      font-size: 21px;
+      line-height: 1.4;
+    }
+
+    .project p {
+      margin-bottom: 18px;
+    }
+
+    .project .reference {
+      font-size: 14px;
+      color: #58647a;
+      margin-bottom: 0;
+    }
+
+    footer {
+      background: #172642;
+      color: white;
+      padding: 22px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 480px) {
+      nav a {
+        margin: 0 9px;
+      }
+
+      header {
+        padding: 60px 22px;
+      }
+
+      header p {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <header id="about">
+    <p class="label">Rutgers Business School</p>
+    <h1>Swara Patel</h1>
+    <p>
+      I am a Finance student at Rutgers Business School with
+      experience in accounting and financial analysis who is
+      interested in using data and communication to support
+      business decisions.
+    </p>
+  </header>
+
+  <main>
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>
+        Skills I have developed through coursework, work
+        experience, and leadership roles.
+      </p>
+
+      <ul class="skills">
+        <li>Financial Analysis</li>
+        <li>Accounting</li>
+        <li>Record Reconciliation</li>
+        <li>Risk Assessment</li>
+        <li>HTML and CSS</li>
+        <li>JavaScript Fundamentals</li>
+        <li>Research</li>
+        <li>Communication</li>
+        <li>Leadership</li>
+        <li>Team Collaboration</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        A selection of projects connecting my interests in
+        finance, business, and technology.
+      </p>
+
+      <div class="projects">
+        <article class="project">
+          <h3>Global Culinary Traditions Website</h3>
+          <p>
+            I worked on a multi-page HTML and CSS website
+            featuring Japanese, Italian, and other cuisines.
+            I corrected coding errors and added navigation,
+            images, tables, and sources while keeping the
+            design consistent across the pages.
+          </p>
+          <p class="reference">
+            Coursework project: Computer Applications in Business
+            <br>
+            Skills: HTML, CSS, web design, and debugging
+          </p>
+        </article>
+
+        <article class="project">
+          <h3>JavaScript Payroll Simulation</h3>
+          <p>
+            I completed a payroll simulation using JavaScript
+            to process inputs and calculate results. The project
+            gave me practice with functions, arrays, loops, and
+            event-driven programming in a business setting.
+          </p>
+          <p class="reference">
+            Coursework project: Computer Applications in Business
+            <br>
+            Skills: JavaScript and problem-solving
+          </p>
+        </article>
+
+        <article class="project">
+          <h3>Goldman Sachs Internal Audit Simulation</h3>
+          <p>
+            I completed a Forage job simulation focused on
+            internal auditing and risk assessment. I reviewed
+            scenarios involving trade execution, non-performing
+            loans, and anti-money-laundering controls and
+            recommended ways to address the identified risks.
+          </p>
+          <p class="reference">
+            Job simulation: Goldman Sachs Internal Audit on Forage
+            <br>
+            Skills: Risk assessment and analytical thinking
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Swara Patel | Finance Student | Rutgers Business School</p>
+  </footer>
+</body>
+</html>
